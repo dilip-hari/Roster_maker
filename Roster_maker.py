@@ -1,7 +1,6 @@
 # import module
 import openpyxl
 from openpyxl.styles import PatternFill
-from openpyxl.styles.colors import Color
 
 # load excel with its path
 wrkbk = openpyxl.load_workbook("roster.xlsx")
